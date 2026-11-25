@@ -1,0 +1,29 @@
+name: Problem melden
+description: Ein Fehler oder ein unerwartetes Verhalten von SpaceSonar Pro
+title: "[Problem] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke für die Meldung. Dieses Issue ist öffentlich: bitte keine persönlichen Daten, keine verräterischen Dateinamen und keine Bilder mit solchen Inhalten. Am einfachsten nutzt du „Problem melden“ in der App und fügst den erzeugten Text unten ein; das Bündel (ZIP) ziehst du danach aus dem Explorer in dieses Issue.
+  - type: textarea
+    id: what
+    attributes:
+      label: Was ist passiert?
+      description: Was hast du getan, was hast du erwartet, was kam stattdessen?
+    validations:
+      required: true
+  - type: textarea
+    id: report
+    attributes:
+      label: Text aus „Problem melden“
+      description: Der Text, den die App erzeugt hat (Version, Fehlerkennung, Rechnerdaten). Ohne ihn bitte die Version aus den Einstellungen nennen.
+      render: text
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Datenschutz
+      options:
+        - label: Der Text und das Bündel enthalten keine persönlichen Daten, die ich nicht öffentlich sehen möchte.
+          required: true
