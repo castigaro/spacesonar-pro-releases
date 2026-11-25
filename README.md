@@ -1,42 +1,46 @@
-# SpaceSonar Pro – Downloads und Fehlermeldungen
+# SpaceSonar Pro – downloads and issue tracker
 
-Hier erscheinen die Veröffentlichungen von SpaceSonar Pro für Windows: der
-Installer, das portable ZIP und die Update-Datei. Der Quellcode liegt nicht
-hier. Mehr zur App: https://appsonar.de/apps/spacesonar-pro.html
+This repository carries the releases of SpaceSonar Pro for Windows: the
+installer, the portable ZIP and the update feed. The source code does not
+live here. About the app, in German: https://appsonar.de/apps/spacesonar-pro.html
 
 ## Download
 
-Unter „Releases“ liegt die neueste Version mit zwei Dateien:
+The latest version is under "Releases" with two files:
 
-- `SpaceSonarPro_<Version>_x64-setup.exe` – Installer für den eigenen
-  Benutzer, ohne Administratorrechte.
-- `SpaceSonarPro_<Version>_x64-portable.zip` – läuft ohne Installation:
-  entpacken und `SpaceSonarPro.exe` starten.
+- `SpaceSonarPro_<version>_x64-setup.exe` – installer for the current user,
+  no administrator rights needed.
+- `SpaceSonarPro_<version>_x64-portable.zip` – runs without installation:
+  unpack and start `SpaceSonarPro.exe`.
 
-Die Dateien sind nicht mit einem Zertifikat signiert. Windows SmartScreen
-zeigt deshalb beim ersten Start einen Hinweis; „Weitere Informationen“ und
-„Trotzdem ausführen“ starten die App.
+The files are not signed with a certificate, so Windows SmartScreen shows a
+warning on the first start; "More info" and "Run anyway" start the app.
 
 ## Updates
 
-Die App geht nicht von sich aus ins Internet. Nach einer neueren Version
-sucht sie nur, wenn du in den Einstellungen auf „Nach Updates suchen“
-klickst; sie liest dann die Datei `latest.json` der neuesten Veröffentlichung
-hier.
+The app never goes online on its own. It looks for a newer version only when
+you click "Check for updates" in its settings; it then reads `latest.json` of
+the latest release here.
 
-## Fehler melden
+## Reporting a problem
 
-Fehler und Wünsche kommen als Issue in dieses Repository. Issues sind
-öffentlich: Schreib keine persönlichen Daten hinein, keine Dateinamen, die
-etwas über dich verraten, und keine Bilder mit solchen Inhalten.
+Bugs and requests go in as issues of this repository. Issues are public: do
+not include personal data, file names that reveal something about you, or
+screenshots with such content.
 
-Am einfachsten geht es über „Problem melden“ in der App: Sie schreibt einen
-kurzen Text und ein Bündel mit Protokoll, Einstellungen und Rechnerdaten,
-Dateipfade sind darin geschwärzt. „Issue öffnen“ bringt dich mit dem Text
-hierher; das Bündel ziehst du aus dem Explorer in das Issue.
+The easiest way is "Report a problem" in the app: it writes a short text and
+a bundle with the log, the settings and the machine facts, with file paths
+redacted. "Open an issue" brings you here with the text filled in; attach the
+bundle by dragging it from the Explorer into the issue.
 
-## Lizenz
+## Licence
 
-SpaceSonar Pro ist in der aktuellen Version kostenlos nutzbar, privat und
-beruflich. Die Nutzungslizenz liegt jeder Version bei (`LICENSE.txt` im ZIP
-und im Programmordner); der Text steht auch hier in `LICENSE`.
+The current version of SpaceSonar Pro is free to use, privately and at work.
+The usage licence ships with every version (`LICENSE.txt` in the ZIP and in
+the program folder); the text is also here in `LICENSE`.
+
+## Deutsch
+
+Beschreibung, Download und Datenschutzerklärung auf Deutsch:
+https://appsonar.de/apps/spacesonar-pro.html. Issues dürfen auf Deutsch oder
+Englisch geschrieben werden.

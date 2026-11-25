@@ -1,29 +1,29 @@
-name: Problem melden
-description: Ein Fehler oder ein unerwartetes Verhalten von SpaceSonar Pro
+name: Report a problem
+description: A bug or unexpected behaviour of SpaceSonar Pro (English or German)
 title: "[Problem] "
 labels: []
 body:
   - type: markdown
     attributes:
       value: |
-        Danke für die Meldung. Dieses Issue ist öffentlich: bitte keine persönlichen Daten, keine verräterischen Dateinamen und keine Bilder mit solchen Inhalten. Am einfachsten nutzt du „Problem melden“ in der App und fügst den erzeugten Text unten ein; das Bündel (ZIP) ziehst du danach aus dem Explorer in dieses Issue.
+        Thank you for the report. This issue is public: no personal data, no revealing file names, no screenshots with such content. The easiest way is "Report a problem" in the app: paste the text it writes below and drag the bundle (ZIP) from the Explorer into this issue afterwards. You may write in English or German.
   - type: textarea
     id: what
     attributes:
-      label: Was ist passiert?
-      description: Was hast du getan, was hast du erwartet, was kam stattdessen?
+      label: What happened?
+      description: What did you do, what did you expect, what happened instead?
     validations:
       required: true
   - type: textarea
     id: report
     attributes:
-      label: Text aus „Problem melden“
-      description: Der Text, den die App erzeugt hat (Version, Fehlerkennung, Rechnerdaten). Ohne ihn bitte die Version aus den Einstellungen nennen.
+      label: Text from "Report a problem"
+      description: The text the app wrote (version, error id, machine facts). Without it, please name the version from the settings.
       render: text
   - type: checkboxes
     id: privacy
     attributes:
-      label: Datenschutz
+      label: Privacy
       options:
-        - label: Der Text und das Bündel enthalten keine persönlichen Daten, die ich nicht öffentlich sehen möchte.
+        - label: The text and the bundle contain no personal data I would not want to see in public.
           required: true
